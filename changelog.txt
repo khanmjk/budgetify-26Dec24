@@ -1,0 +1,51 @@
+# Changelog
+
+## 2024-03-21
+
+### Feature Enhancements
+1. Organization Setup Wizard
+   - Added multi-step wizard for creating new organizations
+   - Implemented basic information collection
+   - Added budget category management
+   - Added department setup with budget allocation
+   - Added comprehensive review step
+
+2. Department Setup Wizard
+   - Added wizard for configuring department structure
+   - Implemented team and manager creation
+   - Added budget allocation for teams
+   - Added review and confirmation step
+
+### UI Improvements
+1. Organizations Page
+   - Enhanced layout and responsiveness
+   - Improved budget overview cards
+   - Added interactive department summary
+   - Enhanced budget category utilization chart
+   - Added organization selector dropdown
+
+2. Navigation
+   - Added breadcrumb navigation
+   - Improved step indicators in wizards
+   - Enhanced mobile responsiveness
+
+### Code Organization
+1. Wizard Components
+   - Created reusable wizard framework
+   - Separated concerns into step components
+   - Added proper TypeScript types
+   - Implemented state management
+
+2. Form Components
+   - Enhanced form validation
+   - Added error handling
+   - Improved user feedback
+
+### Data Model Updates
+- Enhanced Organization interface with budget categories
+- Added Manager and Team interfaces
+- Updated Budget and BudgetItem interfaces
+- Added proper TypeScript types throughout
+
+### Previous Changes
+[Previous changelog entries preserved...]
